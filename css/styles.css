@@ -1,0 +1,225 @@
+:root {
+  --logo-color: #2196f3;
+  --logo-sec-color: #000000;
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --other-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --title-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/*logo стили*/
+
+.logo {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-sec-color);
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--logo-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--logo-color);
+}
+
+/*навигация*/
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--logo-sec-color);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.current {
+  color: var(--logo-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--logo-color);
+}
+
+/*контакты*/
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+/*секция герой*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--other-color);
+}
+
+.hero {
+  background-color: var(--main-text-color);
+  text-align: center;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--other-color);
+  background-color: var(--logo-color);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--logo-sec-color);
+}
+
+/*секция 2*/
+.section2 h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section2 p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-text-color);
+}
+/*секция 3*/
+.section3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/*секция 4*/
+.our-team {
+  background-color: #F5F4FA;
+}
+.section4-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.section4 h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.section4 p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--second-text-color);
+}
+/*футер*/
+.footer {
+  background-color: var(--main-text-color);
+}
+.logo-footer {
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--other-color);
+  text-decoration: none;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--logo-color);
+}
+
+.link-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.addr {
+  color: var(--other-color);
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--other-color);
+}
+
+/*страница портфолио*/
+.buttons {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+  color: var(--other-color);
+  background-color: var(--logo-color);
+}
+.first-button {
+  color: var(--other-color);
+  background-color: var(--logo-color);
+}
+
+.first-button:hover,
+.first-button:focus {
+  background-color: rgba(33, 150, 243, 0.7);
+}
+
+.gallery h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--second-text-color);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
