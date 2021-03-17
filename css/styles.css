@@ -1,3 +1,24 @@
+/* стили для box-sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 :root {
   --logo-color: #2196f3;
   --logo-sec-color: #000000;
@@ -7,15 +28,36 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --title-font: "Raleway", sans-serif;
 }
+* {
+  outline: 1px solid red;
+}
 
 body {
+  width: 1600px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
+/* для обнуления базовых свойств списков и ссылок*/
 ul {
   list-style: none;
+  /* padding-left: 0; */
+  /* margin: 0; */
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* контейнер */
+.container {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*logo стили*/
@@ -37,17 +79,16 @@ ul {
 }
 
 /*навигация*/
+.flex-nav {
+  display: flex;
+}
+
 .navigation {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--logo-sec-color);
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
 }
 
 .current {
@@ -121,7 +162,7 @@ ul {
 }
 /*секция 4*/
 .our-team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .section4-title {
   font-weight: bold;
