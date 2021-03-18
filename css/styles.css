@@ -181,11 +181,8 @@ img {
 .section-ul {
   display: flex;
 }
-.section-list {
+.section-list:not(:last-child) {
   margin-right: 30px;
-}
-.section-list:last-child {
-  margin-right: 0;
 }
 
 .section2 h3 {
@@ -270,11 +267,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer-list {
+.footer-list:not(:last-child) {
   margin-bottom: 9px;
-}
-.footer-list:last-child {
-  margin-bottom: 0;
 }
 
 .addr {
@@ -325,12 +319,8 @@ img {
   padding-bottom: 50px;
 }
 
-.filter-item {
+.filter-item:not(:last-child) {
   margin-right: 8px;
-}
-
-.filter-item:last-child {
-  margin-right: 0;
 }
 
 /* галерея */
