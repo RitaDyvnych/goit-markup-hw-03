@@ -91,7 +91,7 @@ img {
 }
 
 /*навигация меню флексы*/
-.flex-header {
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -99,11 +99,8 @@ img {
   display: flex;
   margin-left: auto;
 }
-.item-header-list {
+.item-header-list:not(:last-child) {
   margin-right: 50px;
-}
-.item-header-list:last-child {
-  margin-right: 0;
 }
 
 .navigation {
