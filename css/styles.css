@@ -28,9 +28,6 @@ p {
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --title-font: "Raleway", sans-serif;
 }
-/* * {
-  outline: 1px solid red;
-} */
 
 body {
   /* width: 1600px; */
@@ -39,7 +36,7 @@ body {
   color: var(--main-text-color);
 }
 
-/* для обнуления базовых свойств списков и ссылок*/
+/* для обнуления базовых свойств списков, ссылок и картинок*/
 ul {
   list-style: none;
   padding-left: 0;
@@ -51,16 +48,19 @@ ul {
   color: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* контейнер */
 .container {
-  /* display: flex;
-  align-items: center; */
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  padding: 25px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   outline: 1px solid red;
 }
 
@@ -73,6 +73,9 @@ ul {
   line-height: 1.19;
   color: var(--logo-sec-color);
   text-decoration: none;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-right: 93px;
 }
 .logo-accent {
@@ -87,7 +90,6 @@ ul {
 .flex-header {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 .item-header {
   display: flex;
@@ -134,6 +136,8 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--other-color);
+
+  margin-bottom: 30px;
 }
 
 .hero {
@@ -202,6 +206,8 @@ ul {
 /*футер*/
 .footer {
   background-color: var(--main-text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   font-family: var(--title-font);
@@ -224,6 +230,12 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.footer-list {
+  margin-bottom: 9px;
+}
+.footer-list:last-child {
+  margin-bottom: 0;
+}
 
 .addr {
   color: var(--other-color);
@@ -232,6 +244,10 @@ ul {
 .link-footer:hover,
 .link-footer:focus {
   color: var(--other-color);
+}
+
+.address-list {
+  margin-top: 20px;
 }
 
 /*страница портфолио*/
