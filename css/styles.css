@@ -332,7 +332,7 @@ img {
 .filter {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
