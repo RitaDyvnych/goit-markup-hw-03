@@ -178,9 +178,9 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section2 {
+/* .section2 {
   padding-bottom: 0;
-}
+} */
 
 .section-ul {
   display: flex;
@@ -205,6 +205,9 @@ img {
 }
 /*секция 3*/
 .section3 {
+  padding-top: 0;
+}
+.section3-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
