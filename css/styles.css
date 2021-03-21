@@ -45,6 +45,7 @@ ul {
 }
 
 .link {
+  display: block;
   text-decoration: none;
   color: inherit;
   padding-top: 32px;
@@ -232,7 +233,6 @@ img {
   padding: 30px 60px;
 }
 .team-member-list:first-of-type {
-  width: 100%;
   padding: 30px 59px;
 }
 .section4-title {
@@ -318,6 +318,8 @@ img {
 .buttons:focus {
   color: var(--other-color);
   background-color: var(--logo-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .first-button {
   color: var(--other-color);
@@ -327,6 +329,8 @@ img {
 .first-button:hover,
 .first-button:focus {
   background-color: rgba(33, 150, 243, 0.7);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* кнопки фильтры */
 .filter {
